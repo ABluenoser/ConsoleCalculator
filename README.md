@@ -14,7 +14,7 @@ Console calculator is provided in two ways:
 
 1. A python script file called `ConsoleCalc.py`
 
-2. A stand-alone executable called `ConsoleCalc` that was created with Pyinstaller 3.4 for Python 3
+2. A stand-alone executable called `ConsoleCalc` that was created with Pyinstaller 3.4 for Python 3.  The `ConsoleCalc` executable is located in the `dist` directory.
 
 ### Running the Python Script
 
@@ -36,7 +36,7 @@ As such the stand-alone executable should run on most Debian-based linux systems
 
 To run the stand-alone executable:
 
-1. Place the `ConsoleCalc` executable in the directory from which you want to run it.
+1. Copy the `ConsoleCalc` executable from the `dist` directory to the directory from which you want to run it.
 2. Ensure you have execute permission on the executable.  If not use `chmod` to change the permissions as follows: `chmod u+x ConsoleCalc`.
 3. Run the executable as follows `./ConsoleCalc`.
 4. Follow the on-screen instructions.
